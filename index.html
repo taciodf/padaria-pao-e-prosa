@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Padaria Pão & Prosa</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="c:\Users\Tácio\Downloads\Logotipo para padaria ilustrativo em branco e bege.png" alt="Pão & Prosa"
+        style="width: 100px; height: 100px;"/>
+      </h1>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre-nos">Sobre nós</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section class="inicio" id="inicio">
+      <div class="incio-texto"><h2>Pão quentinho a toda hora!</h2>
+    <p>Aqui você encontra os melhores pães da cidade, cada receita é feita com bastante amor
+      </p></div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <li>Pães e cias</li>
+        <li>Confeitaria</li>
+        <li>Encomendas</li>
+      </ul>
+    </section>
+
+    <section class="produtos" id="produtos">
+      <h2>Destaques da Padaria</h2>
+      <h2>Mais vendidos</h2>
+
+      <div class="grid-produtos">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/1200x/90/44/97/9044971f63e1e199ec94b468611efbd5.jpg"
+            alt="Pães"
+          />
+          <h3>Pães</h3>
+          <p>Massa leve, crocante, macio e feito com amor</p>
+          <h2>R$ 0,60</h2>
+        </div>
+
+        <div class="item">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1716540164272-cea19f7c1809?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Bolos"
+          />
+          <h3>Bolos</h3>
+          <p>Perfeito para aniversários e comemorações</p>
+          <h2>R$ 10,00</h2>
+        </div>
+
+        <div class="item">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Café"
+          />
+          <h3>Café</h3>
+          <p>Café fresco e feito na hora</p>
+          <h2>R$ 1,50</h2>
+        </div>
+
+        <div class="item">
+          <img src="https://i.pinimg.com/1200x/cc/45/cd/cc45cd94c169394d95b3c98ff42a9cd1.jpg" alt="Misto" />
+          <h3>Misto</h3>
+          <p>Quentinho na hora, queijo derretido e presunto delicioso</p>
+          <h2>R$ 7,00</h2>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1598390475281-9eb7782fb4cf?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pães especiais" />
+          <h3>Pães especiais</h3>
+          <p>Macios, deliciosos e uma explosão de sabor</p>
+          <h2>R$ 1,00</h2>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Salgados" />
+          <h3>Salgados</h3>
+          <p>Bem recheados, massa leve e uma boa opção para da uma pitada de sal na sua vida</p>
+          <h2>R$ 5,00</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre-nos" id="sobre-nos">
+      <h2>Sobre nós</h2>
+      <p>
+        A padaria nasceu do sonho do Seu Joaquim, em um bairro acolhedor da
+        cidade, onde ele desde jovem ajudava o pai no antigo forno de barro da
+        família. Começando com pequenas fornadas para os vizinhos, ele logo
+        transformou a garagem de casa em um ponto de encontro do bairro, sempre
+        marcado pelo aroma do pão quentinho. Com o tempo, o que era simples
+        virou tradição. Hoje, seguimos os valores que ele deixou: qualidade,
+        carinho e respeito pelo cliente. Cada fornada honra a história do Seu
+        Joaquim e mantém vivo o sabor que conquistou a comunidade.
+      </p>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2>Fale Conosco</h2>
+
+      <form id="formContato">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea
+          id="mensagem"
+          placeholder="Escreva sua mensagem..."
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="status"></p>
+    </section>
+
+    <div id="topo">↑</div>
+
+    <footer>
+    <div class="footer-container">
+    <p><strong>Padaria Pão & Prosa</strong></p>
+    <p>Endereço: Rua dos Gênios, 777</p>
+    <p>Telefone: (75) 91234-5678</p>
+    <p>Email: pãoeprosa@gmail.com</p>
+
+    <div class="redes-sociais">
+      <a href="https://www.instagram.com/tacio_df/" target="_blank">
+        <img src="https://i.pinimg.com/736x/8c/50/89/8c50893f510ae4bf4a0094d71d8fa674.jpg" 
+        alt="Instagram" class="icone-insta">
+      </a>
+      <a href="#" target="_blank">
+        <img src="https://i.pinimg.com/1200x/ca/33/33/ca3333db3f6eaeadfd40975ccda7fa8e.jpg" 
+        alt="Instagram" class="icone-whatsapp">
+      </a>
+      <P>2025 Padaria Pão & Prosa. Todos os direitos reservados.</P>  
+    </div>
+    </footer>
+  </body>
+</html>
